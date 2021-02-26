@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Card Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container" id="boton">
+        <div class="row">
+            <div class="col-3 mt-1 ms-5">
+                <button type="button" class="btn btn-info" id="generar">Generate new card</button>
+                <button type="button" class="btn btn-info mt-3" id="tiempo">Generate every two seconds</button>
+                <form>
+                    <div class="form-group mt-4">
+                        <input type="email" class="form-control" id="inputheight" aria-describedby="emailHelp"
+                            placeholder="Enter height of card">
+                    </div>
+                    <div class="form-group mt-4">
+                        <input type="email" class="form-control" id="inputwidth"
+                            placeholder="Enter width of card ">
+                    </div>
+                    <button type="button" class="btn btn-info mt-4" id="regresar">Default value</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-white mt-4" id="carta">
+        <div class="row mb-5">
+            <div class="col" id="superior"></div>
+        </div>
+        <div class="row-5 pt-4">
+            <div class="col d-flex justify-content-center" id="numero"></div>
+        </div>
+        <div class="row mt-5 ">
+            <div class="col d-flex justify-content-start" id="inferior"></div>
+        </div>
+
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: green
+}
+#carta{
+    height: 600px;
+    width: 450px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 120px;
+}
+h2{
+    font-size: 100px;
+}
+#numero{
+    height: 230px;
+}
+#inferior{
+    transform: rotate(180deg);
+    
+}
+#boton{
+    position: absolute;
+}      
